@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 7999351057612125801}
   - component: {fileID: 4934160776780736528}
   m_Layer: 14
-  m_Name: palyerAmmo 6x6
+  m_Name: playerAmmo 6x6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

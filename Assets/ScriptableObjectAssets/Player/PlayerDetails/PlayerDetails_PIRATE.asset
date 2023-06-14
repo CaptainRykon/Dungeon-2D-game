@@ -15,7 +15,7 @@ MonoBehaviour:
   playerCharacterName: THE PIRATE
   playerPrefab: {fileID: 3650079825868789660, guid: 3b569e3734413a843be557e72884c464, type: 3}
   runtimeAnimatorController: {fileID: 9100000, guid: 19f4738a599e43b4094d4471147b311c, type: 2}
-  playerHealthAmount: 80
+  playerHealthAmount: 100
   isImmuneAfterHit: 0
   hitImmunityTime: 0
   startingWeapon: {fileID: 11400000, guid: 9bc27725d72ee6b4e8dd6c81311be2b7, type: 2}

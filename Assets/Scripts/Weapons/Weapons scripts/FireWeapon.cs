@@ -3,8 +3,9 @@ using UnityEngine;
 
 [RequireComponent(typeof(ActiveWeapon))]
 [RequireComponent(typeof(FireWeaponEvent))]
-//[RequireComponent(typeof(ReloadWeaponEvent))]
+[RequireComponent(typeof(ReloadWeaponEvent))]
 [RequireComponent(typeof(WeaponFiredEvent))]
+
 [DisallowMultipleComponent]
 public class FireWeapon : MonoBehaviour
 {
@@ -79,7 +80,7 @@ public class FireWeapon : MonoBehaviour
     private void WeaponPreCharge(FireWeaponEventArgs fireWeaponEventArgs)
     {
         // Weapon precharge.
-       // if (fireWeaponEventArgs.firePreviousFrame)
+        if (fireWeaponEventArgs.firePreviousFrame)
         {
             // Decrease precharge timer if fire button held previous frame.
             firePreChargeTimer -= Time.deltaTime;

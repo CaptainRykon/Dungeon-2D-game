@@ -18,8 +18,19 @@ MonoBehaviour:
   playerHealthAmount: 80
   isImmuneAfterHit: 0
   hitImmunityTime: 0
-  startingWeapon: {fileID: 11400000, guid: 9bc27725d72ee6b4e8dd6c81311be2b7, type: 2}
+  startingWeapon: {fileID: 11400000, guid: f98f89249fb248242ad7638d05ae4038, type: 2}
   startingWeaponList:
   - {fileID: 11400000, guid: 9bc27725d72ee6b4e8dd6c81311be2b7, type: 2}
+  - {fileID: 11400000, guid: 533879c723702004bbcb0a3e23e1166a, type: 2}
+  - {fileID: 11400000, guid: 62cfeb47e8497734fbb752c454f3ab65, type: 2}
+  - {fileID: 11400000, guid: 2820db58f72d47741b5aac1460076650, type: 2}
+  - {fileID: 11400000, guid: b733e0c48ecb1cd4ab7e351abe2024c9, type: 2}
+  - {fileID: 11400000, guid: c4dd40a603d031a4bb2da0f849ff9142, type: 2}
+  - {fileID: 11400000, guid: 2ccef99692157584fbfcf97bbc94fb3a, type: 2}
+  - {fileID: 11400000, guid: 572eee45251c5b442921a2ac3196c16f, type: 2}
+  - {fileID: 11400000, guid: f98f89249fb248242ad7638d05ae4038, type: 2}
+  - {fileID: 11400000, guid: 2830fff6b263d334ba486014b3f0f88a, type: 2}
+  - {fileID: 11400000, guid: 0215eec98ef4a684c8f15bd9664f869f, type: 2}
+  - {fileID: 11400000, guid: 74fadb76e13c6ff41a45839daf09eff6, type: 2}
   playerMiniMapIcon: {fileID: 21300000, guid: 00970f0fdee5df349a60e3f565171bac, type: 3}
   playerHandSprite: {fileID: 21300000, guid: 00970f0fdee5df349a60e3f565171bac, type: 3}

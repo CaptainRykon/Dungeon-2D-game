@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579242887519964571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4, y: 5.02, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 7999351057612125801}
   - component: {fileID: 4934160776780736528}
   m_Layer: 14
-  m_Name: playerAmmoRevolver
+  m_Name: HEAVY AR PAMMO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,7 +200,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a72e2508a09639c4c90ad638ef388eb3, type: 2}
+  - {fileID: 2100000, guid: c8409af97e67d02479949111c93f59f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -221,8 +221,8 @@ SpriteRenderer:
   m_SortingLayerID: -653709415
   m_SortingLayer: 4
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: b1fc36bdfe22e6346b8e4b537c586681, type: 3}
-  m_Color: {r: 1, g: 0.9590845, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ab113d49a9bf93644b228cddaed76178, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -249,7 +249,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.1875, y: 0.1875}
+    oldSize: {x: 0.45, y: 0.1}
     newSize: {x: 0.104166664, y: 0.104166664}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -257,11 +257,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.015, y: 0.015}
-      - {x: -0.015, y: -0.015}
-      - {x: 0.01, y: -0.015}
-      - {x: 0.015, y: -0.01}
-      - {x: 0.015, y: 0.015}
+    - - {x: -0.225, y: -0.03}
+      - {x: 0.225, y: -0.03}
+      - {x: 0.225, y: 0.03}
+      - {x: -0.225, y: 0.03}
 --- !u!50 &4934160776780736528
 Rigidbody2D:
   serializedVersion: 4

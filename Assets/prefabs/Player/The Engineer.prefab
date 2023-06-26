@@ -333,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 811339699368088455, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
       propertyPath: m_Mass
-      value: 4.451403
+      value: 6.829045
       objectReference: {fileID: 0}
     - target: {fileID: 811339699368088456, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
       propertyPath: m_RootOrder
@@ -395,6 +395,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1051201350, guid: ce84a572fb893de42bf26233be8c8299, type: 3}
+    - target: {fileID: 2775885507194550356, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 596bef2a4f99a894a8d39bc7f01c8550, type: 3}
     - target: {fileID: 2880511716847091210, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.28
@@ -415,13 +419,29 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5380721523038030869, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5380721523038030869, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497045484830791209, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.9214287
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497045484830791209, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.6642857
+      objectReference: {fileID: 0}
     - target: {fileID: 7378686472347523519, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.516
+      value: 2.05
       objectReference: {fileID: 0}
     - target: {fileID: 7378686472347523519, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.025
+      value: -0.195
       objectReference: {fileID: 0}
     - target: {fileID: 8511550543763520102, guid: 0f5177911d1f7cc4784bf77302791247, type: 3}
       propertyPath: m_Sprite

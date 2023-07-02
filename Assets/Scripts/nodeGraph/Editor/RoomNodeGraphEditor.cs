@@ -52,12 +52,13 @@ public class RoomNodeGraphEditor : EditorWindow
 
     private void OnEnable()
     {
+
         // Subscribe to the inspector selection changed event
         Selection.selectionChanged += InspectorSelectionChanged;
 
         // Define node layout style
         roomNodeStyle = new GUIStyle();
-        roomNodeStyle.normal.background = EditorGUIUtility.Load("node1") as Texture2D;
+        roomNodeStyle.normal.background = EditorGUIUtility.Load("node3") as Texture2D;
         roomNodeStyle.normal.textColor = Color.white;
         roomNodeStyle.padding = new RectOffset(nodePadding, nodePadding, nodePadding, nodePadding);
         roomNodeStyle.border = new RectOffset(nodeBorder, nodeBorder, nodeBorder, nodeBorder);

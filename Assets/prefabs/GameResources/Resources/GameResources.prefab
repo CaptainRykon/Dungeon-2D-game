@@ -49,3 +49,6 @@ MonoBehaviour:
   currentPlayer: {fileID: 11400000, guid: 8d99a5ffc7832e44d81081680f024d59, type: 2}
   roomNodeTypeList: {fileID: 11400000, guid: 552e912c2a826cb4e89c4649c1e583a4, type: 2}
   dimmedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  heartPrefab: {fileID: 0}
+  ammoIconPrefab: {fileID: 2217798615659223352, guid: 3fca6395b040fcb438414dd93e2e0566, type: 3}
+  scorePrefab: {fileID: 0}

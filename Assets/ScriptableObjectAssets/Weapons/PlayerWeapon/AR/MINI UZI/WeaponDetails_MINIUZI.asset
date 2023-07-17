@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15dbe68f12150b14dbccbcf49faf18eb, type: 3}
+  m_Name: WeaponDetails_MINIUZI
+  m_EditorClassIdentifier: 
+  weaponName: MINI UZI
+  weaponSprite: {fileID: 21300000, guid: fd458b1a4bfb6f946bc3cd306cff4444, type: 3}
+  weaponShootPosition: {x: 1.325, y: 0.023, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: c0b34a72bd004674eaab2c468bc467f9, type: 2}
+  weaponFiringSoundEffect: {fileID: 11400000, guid: e2fbb23bafe0fea4a9e4fd93a453b0f1, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: ed14be35409cec34d98dfd4ed20f1e3a, type: 2}
+  hasInfiniteAmmo: 0
+  hasInfiniteClipCapacity: 0
+  weaponClipAmmoCapacity: 30
+  weaponAmmoCapacity: 210
+  weaponFireRate: 0.07
+  weaponPrechargeTime: 0
+  weaponReloadTime: 2.2

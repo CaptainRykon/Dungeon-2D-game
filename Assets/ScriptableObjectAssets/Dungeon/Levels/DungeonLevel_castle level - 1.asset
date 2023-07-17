@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645d590b9c676c448a7ad8100ae4dd1, type: 3}
+  m_Name: DungeonLevel_castle level - 1
+  m_EditorClassIdentifier: 
+  levelName: the Dungeon castle
+  roomTemplateList:
+  - {fileID: 11400000, guid: a4d3ff1a31b0a4148b93833752e9d039, type: 2}
+  - {fileID: 11400000, guid: e552757c230a6e3449bada56328e7198, type: 2}
+  - {fileID: 11400000, guid: 82518235758683643944dcb408359e2a, type: 2}
+  - {fileID: 11400000, guid: 57ab2ec6bf53cc04eaf4e85430ad2fbd, type: 2}
+  - {fileID: 11400000, guid: 52874f6335d00b74abb9410f5a8ddac4, type: 2}
+  - {fileID: 11400000, guid: fa160a0b45ef73047aad8223fdb3d014, type: 2}
+  - {fileID: 11400000, guid: 21f172a9b65626046855f80fcb565512, type: 2}
+  - {fileID: 11400000, guid: 1663e2a98334d2d4ba8de69a0c216789, type: 2}
+  roomNodeGraphList:
+  - {fileID: 11400000, guid: 81ae44b072f55f1439dd3e7a0635590f, type: 2}
+  - {fileID: 11400000, guid: 92c6d0a7e43be2c43aebf542132e7a48, type: 2}
+  - {fileID: 11400000, guid: b52e95d304893a343ad356ffee8c6630, type: 2}
+  - {fileID: 11400000, guid: 84d83ad350c37374c9683c75ec14afb4, type: 2}
+  - {fileID: 11400000, guid: 09a0472444cc8614abc8cd6fe65d3ce8, type: 2}

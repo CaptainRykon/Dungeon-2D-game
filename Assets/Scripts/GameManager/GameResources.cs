@@ -42,6 +42,65 @@ public class GameResources : MonoBehaviour
     public CurrentPlayerSO currentPlayer;
 
 
+
+    //#region Header MUSIC
+    //[Space(10)]
+    //[Header("MUSIC")]
+    //#endregion Header MUSIC
+    //#region Tooltip
+    //[Tooltip("Populate with the music master mixer group")]
+    //#endregion
+    //public AudioMixerGroup musicMasterMixerGroup;
+    //#region Tooltip
+    //[Tooltip("Main menu music scriptable object")]
+    //#endregion Tooltip
+    //public MusicTrackSO mainMenuMusic;
+    //#region Tooltip
+    //[Tooltip("music on full snapshot")]
+    //#endregion Tooltip
+    //public AudioMixerSnapshot musicOnFullSnapshot;
+    //#region Tooltip
+    //[Tooltip("music low snapshot")]
+    //#endregion Tooltip
+    //public AudioMixerSnapshot musicLowSnapshot;
+    //#region Tooltip
+    //[Tooltip("music off snapshot")]
+    //#endregion Tooltip
+    //public AudioMixerSnapshot musicOffSnapshot;
+
+    #region Header SOUNDS
+    [Space(10)]
+    [Header("SOUNDS")]
+    #endregion Header
+    #region Tooltip
+    [Tooltip("Populate with the sounds master mixer group")]
+    #endregion
+    public AudioMixerGroup soundsMasterMixerGroup;
+    //#region Tooltip
+    //[Tooltip("Door open close sound effect")]
+    //#endregion Tooltip
+    //public SoundEffectSO doorOpenCloseSoundEffect;
+    //#region Tooltip
+    //[Tooltip("Populate with the table flip sound effect")]
+    //#endregion
+    //public SoundEffectSO tableFlip;
+    //#region Tooltip
+    //[Tooltip("Populate with the chest open sound effect")]
+    //#endregion
+    //public SoundEffectSO chestOpen;
+    //#region Tooltip
+    //[Tooltip("Populate with the health pickup sound effect")]
+    //#endregion
+    //public SoundEffectSO healthPickup;
+    //#region Tooltip
+    //[Tooltip("Populate with the weapon pickup sound effect")]
+    //#endregion
+    //public SoundEffectSO weaponPickup;
+    //#region Tooltip
+    //[Tooltip("Populate with the ammo pickup sound effect")]
+    //#endregion
+    //public SoundEffectSO ammoPickup;
+
     #region Header DUNGEON
     [Space(10)]
     [Header("DUNGEON")]
@@ -66,18 +125,18 @@ public class GameResources : MonoBehaviour
     [Space(10)]
     [Header("UI")]
     #endregion
-    #region Tooltip
-    [Tooltip("Populate with heart image prefab")]
-    #endregion
-    public GameObject heartPrefab;
+    //#region Tooltip
+    //[Tooltip("Populate with heart image prefab")]
+    //#endregion
+    //public GameObject heartPrefab;
     #region Tooltip
     [Tooltip("Populate with ammo icon prefab")]
     #endregion
     public GameObject ammoIconPrefab;
-    #region Tooltip
-    [Tooltip("The score prefab")]
-    #endregion
-    public GameObject scorePrefab;
+    //#region Tooltip
+    //[Tooltip("The score prefab")]
+    //#endregion
+    //public GameObject scorePrefab;
 
 
     #region Validation
@@ -108,9 +167,9 @@ public class GameResources : MonoBehaviour
         //HelperUtilities.ValidateCheckNullValue(this, nameof(musicOnFullSnapshot), musicOnFullSnapshot);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(musicLowSnapshot), musicLowSnapshot);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(musicOffSnapshot), musicOffSnapshot);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(heartPrefab), heartPrefab);
+       // HelperUtilities.ValidateCheckNullValue(this, nameof(heartPrefab), heartPrefab);
         HelperUtilities.ValidateCheckNullValue(this, nameof(ammoIconPrefab), ammoIconPrefab);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(scorePrefab), scorePrefab);
+      //  HelperUtilities.ValidateCheckNullValue(this, nameof(scorePrefab), scorePrefab);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(chestItemPrefab), chestItemPrefab);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(heartIcon), heartIcon);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(bulletIcon), bulletIcon);

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4c5f9c5264d844aabb8fc756009638, type: 3}
+  m_Name: Castle_Room_Smalll_Room_myroom_1
+  m_EditorClassIdentifier: 
+  guid: 303761c35da043a468cdd551d37552b0
+  prefab: {fileID: 1671224180906067818, guid: 8ebaba722bc705241bb9312203fe7651, type: 3}
+  previousPrefab: {fileID: 1671224180906067818, guid: 8ebaba722bc705241bb9312203fe7651, type: 3}
+  roomNodeType: {fileID: 11400000, guid: 045002c80490c464fab3894891752742, type: 2}
+  lowerBounds: {x: -28, y: 39}
+  upperBounds: {x: 41, y: 98}
+  doorwayList:
+  - position: {x: 7, y: 98}
+    orientation: 0
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 2, y: 98}
+    doorwayCopyTileWidth: 9
+    doorwayCopyTileHeight: 16
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 42, y: 68}
+    orientation: 1
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 34, y: 79}
+    doorwayCopyTileWidth: 9
+    doorwayCopyTileHeight: 16
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 7, y: 39}
+    orientation: 2
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 2, y: 46}
+    doorwayCopyTileWidth: 9
+    doorwayCopyTileHeight: 8
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -28, y: 67}
+    orientation: 3
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: -28, y: 78}
+    doorwayCopyTileWidth: 9
+    doorwayCopyTileHeight: 16
+    isConnected: 0
+    isUnavailable: 0
+  spawnPositionArray:
+  - {x: -13, y: 78}
+  - {x: 26, y: 78}
+  - {x: 27, y: 52}
+  - {x: -14, y: 51}
+  - {x: 7, y: 51}
+  - {x: 7, y: 79}

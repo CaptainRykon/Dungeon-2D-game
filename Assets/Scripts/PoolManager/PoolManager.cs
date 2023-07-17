@@ -12,6 +12,7 @@ public class PoolManager : SingletonMonobehaviour<PoolManager>
     private Transform objectPoolTransform;
     private Dictionary<int, Queue<Component>> poolDictionary = new Dictionary<int, Queue<Component>>();
 
+
     [System.Serializable]
     public struct Pool
     {

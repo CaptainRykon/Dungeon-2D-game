@@ -76,10 +76,10 @@ public class GameResources : MonoBehaviour
     [Tooltip("Populate with the sounds master mixer group")]
     #endregion
     public AudioMixerGroup soundsMasterMixerGroup;
-    //#region Tooltip
-    //[Tooltip("Door open close sound effect")]
-    //#endregion Tooltip
-    //public SoundEffectSO doorOpenCloseSoundEffect;
+    #region Tooltip
+    [Tooltip("Door open close sound effect")]
+    #endregion Tooltip
+    public SoundEffectSO doorOpenCloseSoundEffect;
     //#region Tooltip
     //[Tooltip("Populate with the table flip sound effect")]
     //#endregion
@@ -121,6 +121,10 @@ public class GameResources : MonoBehaviour
     #endregion
     public Material dimmedMaterial;
 
+    public Material litMaterial;
+
+    public Shader variableLitShader;
+
     #region Header UI
     [Space(10)]
     [Header("UI")]
@@ -150,16 +154,16 @@ public class GameResources : MonoBehaviour
         HelperUtilities.ValidateCheckEnumerableValues(this, nameof(playerDetailsList), playerDetailsList);
         HelperUtilities.ValidateCheckNullValue(this, nameof(currentPlayer), currentPlayer);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(mainMenuMusic), mainMenuMusic);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(soundsMasterMixerGroup), soundsMasterMixerGroup);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(doorOpenCloseSoundEffect), doorOpenCloseSoundEffect);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(soundsMasterMixerGroup), soundsMasterMixerGroup);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(doorOpenCloseSoundEffect), doorOpenCloseSoundEffect);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(tableFlip), tableFlip);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(chestOpen), chestOpen);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(healthPickup), healthPickup);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(ammoPickup), ammoPickup);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(weaponPickup), weaponPickup);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(litMaterial), litMaterial);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(dimmedMaterial), dimmedMaterial);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(variableLitShader), variableLitShader);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(litMaterial), litMaterial);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(dimmedMaterial), dimmedMaterial);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(variableLitShader), variableLitShader);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(materializeShader), materializeShader);
         //HelperUtilities.ValidateCheckEnumerableValues(this, nameof(enemyUnwalkableCollisionTilesArray), enemyUnwalkableCollisionTilesArray);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(preferredEnemyPathTile), preferredEnemyPathTile);

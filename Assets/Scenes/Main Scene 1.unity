@@ -855,9 +855,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 0.33333334
-    height: 0.3333333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   - poolSize: 30
     prefab: {fileID: 853070874543876554, guid: e76b96cbf8c38404a8254437a63181f8, type: 3}
     componentType: IFireable
-  - poolSize: 50
+  - poolSize: 20
     prefab: {fileID: 483519698634254650, guid: 9a1838bbc6cb2d241863d77fa44c9e54, type: 3}
     componentType: SoundEffect
 --- !u!4 &1728297699

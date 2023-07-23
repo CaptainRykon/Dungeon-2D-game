@@ -48,6 +48,9 @@ MonoBehaviour:
   playerDetailsList: []
   currentPlayer: {fileID: 11400000, guid: 8d99a5ffc7832e44d81081680f024d59, type: 2}
   soundsMasterMixerGroup: {fileID: -4189791591674032715, guid: 953c126be5d3820468e69f1a179fee70, type: 2}
+  doorOpenCloseSoundEffect: {fileID: 11400000, guid: f4688fadd7bc458418bfdb6068d4936b, type: 2}
   roomNodeTypeList: {fileID: 11400000, guid: 552e912c2a826cb4e89c4649c1e583a4, type: 2}
-  dimmedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  dimmedMaterial: {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+  litMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  variableLitShader: {fileID: -6465566751694194690, guid: e3bfc155ecf31c54282945ddd562812d, type: 3}
   ammoIconPrefab: {fileID: 2217798615659223352, guid: 3fca6395b040fcb438414dd93e2e0566, type: 3}

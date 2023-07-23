@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 5497045484830791209}
   m_Layer: 18
   m_Name: weapon
-  m_TagString: Untagged
+  m_TagString: playerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -806,7 +806,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.6, y: 0.44}
     oldSize: {x: 2.72, y: 0.93}
     newSize: {x: 2.9214287, y: 0.6642857}
     adaptiveTilingThreshold: 0.5

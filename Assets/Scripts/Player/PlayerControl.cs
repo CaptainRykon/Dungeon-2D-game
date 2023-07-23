@@ -64,7 +64,7 @@ public class PlayerControl : MonoBehaviour
     private void SetPlayerAnimationSpeed()
     {
         // Set animator speed to match movement speed
-     /*   player.animator.speed = moveSpeed / Settings.baseSpeedForPlayerAnimations*/
+        player.animator.speed = moveSpeed / Settings.baseSpeedForPlayerAnimations;
     }
 
     // Update is called once per frame

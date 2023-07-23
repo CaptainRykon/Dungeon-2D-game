@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebd39274d7cd8944a8b7235849d2984, type: 3}
+  m_Name: AmmoDetails_REVOLVER
+  m_EditorClassIdentifier: 
+  ammoName: RELVOVER AMMO
+  isPlayerAmmo: 1
+  ammoSprite: {fileID: 21300000, guid: 8a1eaa3b50f7b9b4bb2766b76581565a, type: 3}
+  ammoPrefabArray:
+  - {fileID: 853070874543876554, guid: 341216525ebfacb40bf8fd670310f2e8, type: 3}
+  ammoMaterial: {fileID: 2100000, guid: c8409af97e67d02479949111c93f59f1, type: 2}
+  ammoChargeTime: 0
+  ammoChargeMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  ammoDamage: 10
+  ammoSpeedMin: 25
+  ammoSpeedMax: 25
+  ammoRange: 30
+  ammoRotationSpeed: 1
+  ammoSpreadMin: 1
+  ammoSpreadMax: 3
+  ammoSpawnAmountMin: 1
+  ammoSpawnAmountMax: 1
+  ammoSpawnIntervalMin: 0
+  ammoSpawnIntervalMax: 0
+  isAmmoTrail: 0
+  ammoTrailTime: 3
+  ammoTrailMaterial: {fileID: 0}
+  ammoTrailStartWidth: 0
+  ammoTrailEndWidth: 0

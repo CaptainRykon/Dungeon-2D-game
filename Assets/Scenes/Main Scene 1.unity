@@ -718,7 +718,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3e7857c4e5dddb44c9611733accf627b, type: 2}
   - {fileID: 11400000, guid: be6dbb654781efd4f9d53a08ec656868, type: 2}
   - {fileID: 11400000, guid: edf3ea7ffda60284d994a66aad2ee4f7, type: 2}
-  currentDungeonLevelListIndex: 1
+  - {fileID: 11400000, guid: e9f6bca7b3ce999439471af356ca0e7c, type: 2}
+  - {fileID: 11400000, guid: 001360d5cceb542449e24df9a9c39670, type: 2}
+  currentDungeonLevelListIndex: 5
   gameState: 0
   previousGameState: 0
 --- !u!4 &283478756

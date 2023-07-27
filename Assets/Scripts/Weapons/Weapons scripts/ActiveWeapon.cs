@@ -4,6 +4,7 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(SetActiveWeaponEvent))]
+
 [DisallowMultipleComponent]
 public class ActiveWeapon : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class ActiveWeapon : MonoBehaviour
     [Tooltip("Populate with the Transform on the WeaponShootPosition gameobject")]
     #endregion
     [SerializeField] private Transform weaponShootPositionTransform;
+    public Transform WeaponShootRotation;
+ 
     #region Tooltip
     [Tooltip("Populate with the Transform on the WeaponEffectPosition gameobject")]
     #endregion
@@ -26,12 +29,13 @@ public class ActiveWeapon : MonoBehaviour
 
     private SetActiveWeaponEvent setWeaponEvent;
     private Weapon currentWeapon;
-
+  
 
     private void Awake()
     {
         // Load components
         setWeaponEvent = GetComponent<SetActiveWeaponEvent>();
+        
     }
 
     private void OnEnable()
@@ -91,7 +95,10 @@ public class ActiveWeapon : MonoBehaviour
     {
         return weaponEffectPositionTransform.position;
     }
-
+    public Transform GetShootEffectRotation()
+    {
+        return WeaponShootRotation.transform;
+    }
     public void RemoveCurrentWeapon()
     {
         currentWeapon = null;

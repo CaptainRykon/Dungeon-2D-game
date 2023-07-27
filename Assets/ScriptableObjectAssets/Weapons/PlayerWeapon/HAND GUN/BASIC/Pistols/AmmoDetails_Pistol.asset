@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoName: Pistol
   isPlayerAmmo: 1
-  ammoSprite: {fileID: 21300000, guid: b1fc36bdfe22e6346b8e4b537c586681, type: 3}
+  ammoSprite: {fileID: 21300000, guid: 5906f11893ab5294fa1fbe13ff9eb095, type: 3}
   ammoPrefabArray:
   - {fileID: 853070874543876554, guid: 341216525ebfacb40bf8fd670310f2e8, type: 3}
   ammoMaterial: {fileID: 2100000, guid: a72e2508a09639c4c90ad638ef388eb3, type: 2}

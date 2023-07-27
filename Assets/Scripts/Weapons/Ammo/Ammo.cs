@@ -56,11 +56,11 @@ public class Ammo : MonoBehaviour, IFireable
 
             if (ammoRange < 0f)
             {
-                //if (ammoDetails.isPlayerAmmo)
-                //{
-                //    // no multiplier
-                //    StaticEventHandler.CallMultiplierEvent(false);
-                //}
+                if (ammoDetails.isPlayerAmmo)
+                {
+                    // no multiplier
+                    StaticEventHandler.CallMultiplierEvent(false);
+                }
 
                 DisableAmmo();
             }
@@ -179,6 +179,11 @@ public class Ammo : MonoBehaviour, IFireable
         fireDirectionVector = HelperUtilities.GetDirectionVectorFromAngle(fireDirectionAngle);
 
     }
+    public void ammoRotation()
+    {
+      
+    }
+ 
 
     /// <summary>
     /// Disable the ammo - thus returning it to the object pool

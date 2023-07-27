@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: AWM
   weaponSprite: {fileID: 21300000, guid: 596bef2a4f99a894a8d39bc7f01c8550, type: 3}
-  weaponShootPosition: {x: 2.2, y: -0.195, z: 0}
+  weaponShootPosition: {x: 3.5, y: -0.135, z: 0}
   weaponCurrentAmmo: {fileID: 11400000, guid: da9dc9e10417a7d4c9cebc2170581ee9, type: 2}
+  weaponShootEffect: {fileID: 11400000, guid: bea4b70d12ae0be49879b044ce28e955, type: 2}
   weaponFiringSoundEffect: {fileID: 11400000, guid: e3cf73b0833b9f04dbd9c80b0e6aed3e, type: 2}
   weaponReloadingSoundEffect: {fileID: 11400000, guid: d5b07eb03f0cb3442a885fff37e4d5b6, type: 2}
   hasInfiniteAmmo: 0

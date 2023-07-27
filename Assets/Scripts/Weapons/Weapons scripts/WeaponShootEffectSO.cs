@@ -59,7 +59,6 @@ public class WeaponShootEffectSO : ScriptableObject
     public Sprite sprite;
 
     public Material Rendermaterial;
-
     #region Tooltip
     [Tooltip("The min velocity for the particle over its lifetime. A random value between min and max will be generated.")]
     #endregion Tooltip
@@ -75,6 +74,7 @@ public class WeaponShootEffectSO : ScriptableObject
     #endregion Tooltip
     public GameObject weaponShootEffectPrefab;
 
+    
 
     #region Validation
 

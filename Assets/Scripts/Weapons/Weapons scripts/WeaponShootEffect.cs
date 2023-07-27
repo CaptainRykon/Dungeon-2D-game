@@ -5,14 +5,14 @@ public class WeaponShootEffect : MonoBehaviour
 {
     private ParticleSystem shootEffectParticleSystem;
 
-
+   
+    
 
     private void Awake()
     {
         // Load components
         shootEffectParticleSystem = GetComponent<ParticleSystem>();
-   
-        
+  
     }
 
     /// <summary>
@@ -37,8 +37,6 @@ public class WeaponShootEffect : MonoBehaviour
 
         // Set shoot effect lifetime min and max velocities
         SetShootEffectVelocityOverLifeTime(shootEffect.velocityOverLifetimeMin, shootEffect.velocityOverLifetimeMax);
-
-
         SetShootEffectParticleMaterial(shootEffect.Rendermaterial);
 
     }
@@ -77,6 +75,8 @@ public class WeaponShootEffect : MonoBehaviour
 
         // Set max particles
         mainModule.maxParticles = maxParticles;
+      
+
 
     }
 
@@ -113,8 +113,6 @@ public class WeaponShootEffect : MonoBehaviour
         shootEffectParticleSystem.GetComponent<ParticleSystemRenderer>().material = material;
 
     }
-
-
 
     /// <summary>
     /// Set the rotation of the emmitter to match the aim angle

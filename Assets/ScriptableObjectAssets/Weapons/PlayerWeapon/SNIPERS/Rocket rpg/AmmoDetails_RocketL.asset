@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebd39274d7cd8944a8b7235849d2984, type: 3}
+  m_Name: AmmoDetails_RocketL
+  m_EditorClassIdentifier: 
+  ammoName: Rocket Launcher
+  isPlayerAmmo: 1
+  ammoSprite: {fileID: 21300000, guid: 312d0bd1975696149b2a23b1d8661300, type: 3}
+  ammoPrefabArray:
+  - {fileID: 853070874543876554, guid: 1806610440e55f84082205971640f368, type: 3}
+  ammoMaterial: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  ammoChargeTime: 0
+  ammoChargeMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  ammoHitEffect: {fileID: 0}
+  ammoDamage: 65
+  ammoSpeedMin: 8
+  ammoSpeedMax: 15
+  ammoRange: 35
+  ammoRotationSpeed: 1
+  ammoSpreadMin: 1
+  ammoSpreadMax: 2
+  ammoSpawnAmountMin: 1
+  ammoSpawnAmountMax: 1
+  ammoSpawnIntervalMin: 0
+  ammoSpawnIntervalMax: 0
+  isAmmoTrail: 1
+  ammoTrailTime: 0.15
+  ammoTrailMaterial: {fileID: 2100000, guid: 9a526ccb9696d6545b3991e93bfb18bd, type: 2}
+  ammoTrailStartWidth: 0.12
+  ammoTrailEndWidth: 0.5

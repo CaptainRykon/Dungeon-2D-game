@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ebb3d7d260e3ae4e9b36b0f2ebb317b, type: 3}
   m_Name: MovementDetails_Player
   m_EditorClassIdentifier: 
-  minMoveSpeed: 8
-  maxMoveSpeed: 8
+  minMoveSpeed: 9.5
+  maxMoveSpeed: 9.5

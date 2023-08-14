@@ -65,7 +65,8 @@ public class PoolManager : SingletonMonobehaviour<PoolManager>
     }
 
     /// <summary>
-    /// Reuse a gameobject component in the pool.  'prefab' is the prefab gameobject containing the component. 'position' is the world position for the gameobject where it should appear when enabled. 'rotation' should be set if the gameobject needs to be rotated.
+    /// Reuse a gameobject component in the pool.  'prefab' is the prefab gameobject containing the component. 'position' is the world
+    /// position for the gameobject where it should appear when enabled. 'rotation' should be set if the gameobject needs to be rotated.
     /// </summary>
     public Component ReuseComponent(GameObject prefab, Vector3 position, Quaternion rotation)
     {

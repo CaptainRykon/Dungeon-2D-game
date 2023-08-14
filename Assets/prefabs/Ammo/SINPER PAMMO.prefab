@@ -242,7 +242,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -257,10 +257,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.225, y: -0.03}
-      - {x: 0.225, y: -0.03}
-      - {x: 0.225, y: 0.03}
-      - {x: -0.225, y: 0.03}
+    - - {x: -0.30037478, y: -0.036729895}
+      - {x: 0.29768285, y: -0.042113803}
+      - {x: 0.29768288, y: -0.042113803}
+      - {x: 0.2990288, y: -0.03}
+      - {x: 0.3003748, y: 0.051535666}
+      - {x: -0.30172077, y: 0.05018968}
 --- !u!50 &4934160776780736528
 Rigidbody2D:
   serializedVersion: 4

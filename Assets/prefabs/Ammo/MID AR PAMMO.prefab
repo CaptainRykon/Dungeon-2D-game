@@ -242,14 +242,14 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.1}
+    oldSize: {x: 0.26666668, y: 0.11111111}
     newSize: {x: 0.104166664, y: 0.104166664}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

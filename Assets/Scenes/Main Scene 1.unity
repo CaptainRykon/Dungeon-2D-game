@@ -185,8 +185,8 @@ MonoBehaviour:
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 2
-  m_SoftZoneHeight: 1
-  m_BiasX: 0.183
+  m_SoftZoneHeight: 1.089
+  m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_MaximumDistance: 5000
   m_MinimumFOV: 3
   m_MaximumFOV: 60
-  m_MinimumOrthoSize: 8.4375
-  m_MaximumOrthoSize: 8.4375
+  m_MinimumOrthoSize: 11.95313
+  m_MaximumOrthoSize: 11.95313
 --- !u!114 &59312
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_ScreenY: 0.5
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
-  m_SoftZoneWidth: 0.8
+  m_SoftZoneWidth: 0.884
   m_SoftZoneHeight: 0.8
   m_BiasX: 0
   m_BiasY: 0
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_Follow: {fileID: 2053157706}
   m_Lens:
     FieldOfView: 34
-    OrthographicSize: 8.4375
+    OrthographicSize: 11.953125
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -864,7 +864,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 8.4375
+  orthographic size: 16.875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1560,7 +1560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981699125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5018.0938, y: 13510.253, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2318,12 +2318,18 @@ MonoBehaviour:
   - poolSize: 30
     prefab: {fileID: 853070874543876554, guid: e76b96cbf8c38404a8254437a63181f8, type: 3}
     componentType: IFireable
+  - poolSize: 5
+    prefab: {fileID: 853070874543876554, guid: 1806610440e55f84082205971640f368, type: 3}
+    componentType: IFireable
   - poolSize: 20
     prefab: {fileID: 483519698634254650, guid: 9a1838bbc6cb2d241863d77fa44c9e54, type: 3}
     componentType: SoundEffect
   - poolSize: 30
     prefab: {fileID: 7255582679228879866, guid: deccf66408ccdd744bb1adb4b024ea58, type: 3}
     componentType: WeaponShootEffect
+  - poolSize: 30
+    prefab: {fileID: 7853615770937549561, guid: 699efd7caa8a05c4aaa404f535a75be6, type: 3}
+    componentType: AmmoHitEffect
 --- !u!4 &1728297699
 Transform:
   m_ObjectHideFlags: 0

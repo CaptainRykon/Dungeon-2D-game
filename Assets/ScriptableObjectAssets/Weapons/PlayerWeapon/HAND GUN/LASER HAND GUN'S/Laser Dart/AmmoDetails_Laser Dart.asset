@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoName: Laser Dart AMMO
   isPlayerAmmo: 1
-  ammoSprite: {fileID: 21300000, guid: b1fc36bdfe22e6346b8e4b537c586681, type: 3}
+  ammoSprite: {fileID: 21300000, guid: 5906f11893ab5294fa1fbe13ff9eb095, type: 3}
   ammoPrefabArray:
-  - {fileID: 853070874543876554, guid: 341216525ebfacb40bf8fd670310f2e8, type: 3}
+  - {fileID: 853070874543876554, guid: 7da36c9e4af9f734396754fad2e37a73, type: 3}
   ammoMaterial: {fileID: 2100000, guid: c8409af97e67d02479949111c93f59f1, type: 2}
   ammoChargeTime: 0
   ammoChargeMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}

@@ -24,5 +24,5 @@ MonoBehaviour:
   weaponClipAmmoCapacity: 10
   weaponAmmoCapacity: 60
   weaponFireRate: 0.5
-  weaponPrechargeTime: 0
+  weaponPrechargeTime: 0.5
   weaponReloadTime: 2.5

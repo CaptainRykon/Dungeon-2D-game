@@ -42,14 +42,14 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   duration: 0.001
-  startParticleSize: 1.8
+  startParticleSize: 1.2
   startParticleSpeed: 0.01
   startLifetime: 0.001
   maxParticleNumber: 6
   emissionRate: 150
   burstParticleNumber: 30
   effectGravity: 0
-  sprite: {fileID: 2023637159, guid: a7f533c22280413409a56a37641cff29, type: 3}
+  sprite: {fileID: -815450125, guid: 229cb6c0ccfdb8841abb67abeaa07d00, type: 3}
   Rendermaterial: {fileID: 2100000, guid: 5c86445c1f630c141ab88b05539eca5d, type: 2}
   velocityOverLifetimeMin: {x: 0, y: 0, z: 0}
   velocityOverLifetimeMax: {x: 0, y: 0, z: 0}

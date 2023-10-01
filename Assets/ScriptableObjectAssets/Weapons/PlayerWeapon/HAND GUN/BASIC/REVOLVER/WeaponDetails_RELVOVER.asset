@@ -25,4 +25,4 @@ MonoBehaviour:
   weaponAmmoCapacity: 100
   weaponFireRate: 0.35
   weaponPrechargeTime: 0
-  weaponReloadTime: 1.5
+  weaponReloadTime: 2

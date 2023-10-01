@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d02a05818c8554089107eb2f3ee837, type: 3}
+  m_Name: EnemyDetails_Blue_Medium_Enemy
+  m_EditorClassIdentifier: 
+  enemyName: blue Medium Enenmy
+  enemyPrefab: {fileID: 685287224014431606, guid: c750528733d1a8b4b92bb5b9ad886125, type: 3}
+  chaseDistance: 50
+  enemyStandardMaterial: {fileID: 2100000, guid: 8906ff5d458c0ba4d8d1d0177dfd5df5, type: 2}
+  enemyMaterializeTime: 0.45
+  enemyMaterializeShader: {fileID: -6465566751694194690, guid: cb76abbc17a041049baacb820b4ca50e, type: 3}
+  enemyMaterializeColor: {r: 0, g: 0, b: 0, a: 0}
+  enemyWeapon: {fileID: 11400000, guid: 62cfeb47e8497734fbb752c454f3ab65, type: 2}
+  firingIntervalMin: 0.1
+  firingIntervalMax: 1
+  firingDurationMin: 1
+  firingDurationMax: 2
+  firingLineOfSightRequired: 0
+  isImmuneAfterHit: 0
+  hitImmunityTime: 0
+  isHealthBarDisplayed: 0

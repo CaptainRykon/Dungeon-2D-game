@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31885d66e6a07e24d8a8e27bc1e6bcaf, type: 3}
-  m_Name: CurrentPlayer
+  m_Script: {fileID: 11500000, guid: 0ebb3d7d260e3ae4e9b36b0f2ebb317b, type: 3}
+  m_Name: MovementDetails_Blue_Enemy
   m_EditorClassIdentifier: 
-  playerDetails: {fileID: 11400000, guid: 339c998e5d741c24cace768c1fbbb017, type: 2}
-  playerName: engineer
+  minMoveSpeed: 25
+  maxMoveSpeed: 40

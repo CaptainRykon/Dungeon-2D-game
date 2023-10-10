@@ -142,6 +142,18 @@ public class GameResources : MonoBehaviour
     //#endregion
     //public GameObject scorePrefab;
 
+    #region Header SPECIAL TILEMAP TILES
+    [Space(10)]
+    [Header("SPECIAL TILEMAP TILES")]
+    #endregion Header SPECIAL TILEMAP TILES
+    #region Tooltip
+    [Tooltip("Collision tiles that the enemies can navigate to")]
+    #endregion Tooltip
+    public TileBase[] enemyUnwalkableCollisionTilesArray;
+    #region Tooltip
+    [Tooltip("Preferred path tile for enemy navigation")]
+    #endregion Tooltip
+    public TileBase preferredEnemyPathTile;
 
     #region Validation
 #if UNITY_EDITOR
@@ -165,8 +177,8 @@ public class GameResources : MonoBehaviour
         HelperUtilities.ValidateCheckNullValue(this, nameof(dimmedMaterial), dimmedMaterial);
         HelperUtilities.ValidateCheckNullValue(this, nameof(variableLitShader), variableLitShader);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(materializeShader), materializeShader);
-        //HelperUtilities.ValidateCheckEnumerableValues(this, nameof(enemyUnwalkableCollisionTilesArray), enemyUnwalkableCollisionTilesArray);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(preferredEnemyPathTile), preferredEnemyPathTile);
+        HelperUtilities.ValidateCheckEnumerableValues(this, nameof(enemyUnwalkableCollisionTilesArray), enemyUnwalkableCollisionTilesArray);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(preferredEnemyPathTile), preferredEnemyPathTile);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(musicMasterMixerGroup), musicMasterMixerGroup);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(musicOnFullSnapshot), musicOnFullSnapshot);
         //HelperUtilities.ValidateCheckNullValue(this, nameof(musicLowSnapshot), musicLowSnapshot);

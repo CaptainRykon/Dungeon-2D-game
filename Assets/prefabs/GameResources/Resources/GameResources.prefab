@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSelectionPrefab: {fileID: 0}
-  playerDetailsList: []
+  playerDetailsList:
+  - {fileID: 11400000, guid: 339c998e5d741c24cace768c1fbbb017, type: 2}
   currentPlayer: {fileID: 11400000, guid: 8d99a5ffc7832e44d81081680f024d59, type: 2}
   soundsMasterMixerGroup: {fileID: -4189791591674032715, guid: 953c126be5d3820468e69f1a179fee70, type: 2}
   doorOpenCloseSoundEffect: {fileID: 11400000, guid: f4688fadd7bc458418bfdb6068d4936b, type: 2}
@@ -53,8 +54,8 @@ MonoBehaviour:
   dimmedMaterial: {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   litMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   variableLitShader: {fileID: -6465566751694194690, guid: e3bfc155ecf31c54282945ddd562812d, type: 3}
+  ammoIconPrefab: {fileID: 2217798615659223352, guid: 3fca6395b040fcb438414dd93e2e0566, type: 3}
   enemyUnwalkableCollisionTilesArray:
   - {fileID: 11400000, guid: 395f19d3a1079034cb47f4f2970ec54b, type: 2}
   - {fileID: 11400000, guid: 6dc79afd69de6fd40b24aa29f3203ba6, type: 2}
   preferredEnemyPathTile: {fileID: 11400000, guid: 6bc804a26a7e19048bc0769b97df3f17, type: 2}
-  ammoIconPrefab: {fileID: 2217798615659223352, guid: 3fca6395b040fcb438414dd93e2e0566, type: 3}

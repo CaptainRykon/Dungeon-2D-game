@@ -4,27 +4,27 @@ using UnityEngine.Rendering;
 
 #region REQUIRE COMPONENTS
 //[RequireComponent(typeof(HealthEvent))]
-[RequireComponent(typeof(Health))]
+//[RequireComponent(typeof(Health))]
 //[RequireComponent(typeof(DealContactDamage))]
 //[RequireComponent(typeof(DestroyedEvent))]
 //[RequireComponent(typeof(Destroyed))]
 //[RequireComponent(typeof(EnemyWeaponAI))]
-[RequireComponent(typeof(AimWeaponEvent))]
-[RequireComponent(typeof(AimWeapon))]
-[RequireComponent(typeof(FireWeaponEvent))]
-[RequireComponent(typeof(FireWeapon))]
-[RequireComponent(typeof(SetActiveWeaponEvent))]
-[RequireComponent(typeof(ActiveWeapon))]
-[RequireComponent(typeof(WeaponFiredEvent))]
-[RequireComponent(typeof(ReloadWeaponEvent))]
-[RequireComponent(typeof(ReloadWeapon))]
-[RequireComponent(typeof(WeaponReloadedEvent))]
-//[RequireComponent(typeof(EnemyMovementAI))]
+//[RequireComponent(typeof(AimWeaponEvent))]
+//[RequireComponent(typeof(AimWeapon))]
+//[RequireComponent(typeof(FireWeaponEvent))]
+//[RequireComponent(typeof(FireWeapon))]
+//[RequireComponent(typeof(SetActiveWeaponEvent))]
+//[RequireComponent(typeof(ActiveWeapon))]
+//[RequireComponent(typeof(WeaponFiredEvent))]
+//[RequireComponent(typeof(ReloadWeaponEvent))]
+//[RequireComponent(typeof(ReloadWeapon))]
+//[RequireComponent(typeof(WeaponReloadedEvent))]
+[RequireComponent(typeof(EnemyMovementAI))]
 [RequireComponent(typeof(MovementToPositionEvent))]
 [RequireComponent(typeof(MovementToPosition))]
 [RequireComponent(typeof(IdleEvent))]
 [RequireComponent(typeof(Idle))]
-//[RequireComponent(typeof(AnimateEnemy))]
+[RequireComponent(typeof(AnimateEnemy))]
 //[RequireComponent(typeof(MaterializeEffect))]
 [RequireComponent(typeof(SortingGroup))]
 [RequireComponent(typeof(SpriteRenderer))]
@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public FireWeaponEvent fireWeaponEvent;
     private FireWeapon fireWeapon;
     private SetActiveWeaponEvent setActiveWeaponEvent;
-   // private EnemyMovementAI enemyMovementAI;
+    private EnemyMovementAI enemyMovementAI;
     [HideInInspector] public MovementToPositionEvent movementToPositionEvent;
     [HideInInspector] public IdleEvent idleEvent;
    // private MaterializeEffect materializeEffect;
@@ -62,7 +62,7 @@ public class Enemy : MonoBehaviour
         fireWeaponEvent = GetComponent<FireWeaponEvent>();
         fireWeapon = GetComponent<FireWeapon>();
         setActiveWeaponEvent = GetComponent<SetActiveWeaponEvent>();
-       // enemyMovementAI = GetComponent<EnemyMovementAI>();
+        enemyMovementAI = GetComponent<EnemyMovementAI>();
         movementToPositionEvent = GetComponent<MovementToPositionEvent>();
         idleEvent = GetComponent<IdleEvent>();
         //materializeEffect = GetComponent<MaterializeEffect>();
@@ -116,9 +116,9 @@ public class Enemy : MonoBehaviour
 
       //  SetEnemyStartingHealth(dungeonLevel);
 
-        SetEnemyStartingWeapon();
+       // SetEnemyStartingWeapon();
 
-        //SetEnemyAnimationSpeed();
+        SetEnemyAnimationSpeed();
 
         // Materialise enemy
        // StartCoroutine(MaterializeEnemy());
@@ -130,7 +130,7 @@ public class Enemy : MonoBehaviour
     private void SetEnemyMovementUpdateFrame(int enemySpawnNumber)
     {
         // Set frame number that enemy should process it's updates
-       // enemyMovementAI.SetUpdateFrameNumber(enemySpawnNumber % Settings.targetFrameRateToSpreadPathfindingOver);
+        enemyMovementAI.SetUpdateFrameNumber(enemySpawnNumber % Settings.targetFrameRateToSpreadPathfindingOver);
     }
 
 
@@ -170,11 +170,11 @@ public class Enemy : MonoBehaviour
     /// <summary>
     /// Set enemy animator speed to match movement speed
     /// </summary>
-    //private void SetEnemyAnimationSpeed()
-    //{
-    //    // Set animator speed to match movement speed
-    //    animator.speed = enemyMovementAI.moveSpeed / Settings.baseSpeedForEnemyAnimations;
-    //}
+    private void SetEnemyAnimationSpeed()
+    {
+        // Set animator speed to match movement speed
+        animator.speed = enemyMovementAI.moveSpeed / Settings.baseSpeedForEnemyAnimations;
+    }
 
     //private IEnumerator MaterializeEnemy()
     //{

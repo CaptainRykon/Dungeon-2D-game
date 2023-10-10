@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4224755676456784970, guid: 4c05adbc1ae0579409e718adeddd073a, type: 3}
+      propertyPath: movementDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 838767c5bba08844ca0b641a2d1eccad, type: 2}
     - target: {fileID: 5849051266930084805, guid: 4c05adbc1ae0579409e718adeddd073a, type: 3}
       propertyPath: m_Name
       value: Blue Castle enemy
